@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" />
+  <title>To do list</title>
+</head>
+
+<body class="Body">
+
+  <div class="container-fluid text-center mt-4 mb-4">
+    <h1>To Do List </h1>
+  </div>
+
+  <div class="container mt-4">
+    <form>
+      <div class="form-group">
+        <label for="nombre">Quel est votre nombre</label>
+        <input type="number" class="form-control" name="nombre" id="nombre" autocomplete="off" required />
+      </div>
+      <button id="submit" class="btn btn-secondary mt-3">Envoyer</button>
+    </form>
+  </div>
+
+  <div class="container mt-4" id="affichage">
+
+  </div>
+
+
+</body>
+
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>
